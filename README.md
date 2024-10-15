@@ -22,5 +22,8 @@ kubectl get all -n default
 minikube service go-service
 ```
 5. To get API response
-Example: 192.168.10.1:7004/api/GetData
-Example: 192.168.10.1:7004/api/GetQueryStringData?name=Tu&age=21
+Example:
+```bash
+192.168.10.1:7004/api/GetData
+192.168.10.1:7004/api/GetQueryStringData?name=Tu&age=21
+```
